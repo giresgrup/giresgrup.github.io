@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Publish website
 
 # Controls when the action will run. 
 on:
@@ -23,8 +23,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Build Hugo
+      - name: hugo-deploy
         # You may pin to the exact commit or the version.
-        # uses: lowply/build-hugo@f1a998669acee3079ffbeb0781ab955ff4a2cc3a
-        uses: lowply/build-hugo@v0.79.0
+        # uses: reuixiy/hugo-deploy@1185ce893b699b1809ec27bebcd8212a8127fefa
+        uses: reuixiy/hugo-deploy@v1
