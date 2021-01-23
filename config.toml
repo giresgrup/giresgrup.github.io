@@ -1,0 +1,94 @@
+baseURL = "https://giresgrup.github.io"
+title = "GIRES"
+theme = "soho"
+languageCode = "ca-es"
+enableInlineShortcodes = true
+
+summarylength = 10
+enableEmoji = true
+
+[params]
+author = "GIRES"
+description = "Grup de Recerques i Investigacions Espeleològiques Sesrovires"
+
+## Set one of:
+# gravatar = "soho@example.com"
+profilePicture = "images/logoGires.png"
+
+copyright = "Alberto Cámara"
+license = "CC BY-SA 4.0"
+licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+
+## Set custom theme color.
+themeColor = "#00007d"
+
+## Set custom CSS and/or JS to override site defaults.
+#customCss = ["css/blog.css"]
+#customJs = ["js/blog.js"]
+
+  ## Set as many as you want.
+  [[params.socialIcons]]
+  icon = "fa-instagram"
+  title = "Instagram"
+  url = "https://www.instagram.com/giressesrovires/"
+
+  [[params.socialIcons]]
+  icon = "fa-github"
+  title = "GitHub"
+  url = "https://github.com/giresgrup/"
+
+[menu]
+
+  [[menu.main]]
+  name = "Notícies"
+  weight = 100
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "L'entitat"
+  identifier = "about"
+  weight = 200
+  url = "/gires/"
+
+  [[menu.main]]
+  name = "Espeleologia"
+  weight = 300
+  identifier = "espele"
+  url = "/espele/"
+
+  [[menu.main]]
+  name = "Muntanya"
+  weight = 400
+  identifier = "muntanya"
+  url = "/muntanya/"
+
+  [[menu.main]]
+  name = "Escalada"
+  weight = 500
+  identifier = "escalada"
+  url = "/escalada/"
+
+  [[menu.main]]
+  name = "Contacte"
+  weight = 600
+  identifier = "contacte"
+  url = "/contacte/"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[markup]
+
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = true # if false, you need to provide you own custom CSS
+  style = "monokai"
+  tabWidth = 4
