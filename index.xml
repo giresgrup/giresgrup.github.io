@@ -5,14 +5,52 @@
     <link>https://giresgrup.github.io/</link>
     <description>Recent content on GIRES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ca-es</language><atom:link href="https://giresgrup.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>ca-es</language>
+    <lastBuildDate>Sun, 24 Jan 2021 11:14:39 +0100</lastBuildDate><atom:link href="https://giresgrup.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Benvinguts!</title>
-      <link>https://giresgrup.github.io/</link>
-      <pubDate>Sun, 24 Jan 2021 10:51:34 +0100</pubDate>
+      <title>Nova Web!</title>
+      <link>https://giresgrup.github.io/posts/nova-web/</link>
+      <pubDate>Sun, 24 Jan 2021 11:14:39 +0100</pubDate>
       
-      <guid>https://giresgrup.github.io/</guid>
-      <description>Ens trobareu al nostre local a Sant Esteve Sesrovires.</description>
+      <guid>https://giresgrup.github.io/posts/nova-web/</guid>
+      <description>Hem dissenyat aquesta web per tal que pogueu trobar fàcilment tota la informació referent a la nostra activitat.</description>
+    </item>
+    
+    <item>
+      <title>Contacte</title>
+      <link>https://giresgrup.github.io/contacte/</link>
+      <pubDate>Sun, 24 Jan 2021 10:54:13 +0100</pubDate>
+      
+      <guid>https://giresgrup.github.io/contacte/</guid>
+      <description>Ens trobareu al nostre local:
+ Plaça de la Vila, 7</description>
+    </item>
+    
+    <item>
+      <title>Secció de Muntanya</title>
+      <link>https://giresgrup.github.io/muntanya/</link>
+      <pubDate>Sun, 24 Jan 2021 10:54:02 +0100</pubDate>
+      
+      <guid>https://giresgrup.github.io/muntanya/</guid>
+      <description>La secció de Muntanya organitza activitats d&amp;rsquo;excursionisme, alpinisme i escalada.</description>
+    </item>
+    
+    <item>
+      <title>Secció d&#39;Espeleologia</title>
+      <link>https://giresgrup.github.io/espele/</link>
+      <pubDate>Sun, 24 Jan 2021 10:53:53 +0100</pubDate>
+      
+      <guid>https://giresgrup.github.io/espele/</guid>
+      <description>La secció d&amp;rsquo;Espeleologia organitza activitats d&amp;rsquo;espeleologia i descens de barrancs.</description>
+    </item>
+    
+    <item>
+      <title>Sobre l&#39;entitat</title>
+      <link>https://giresgrup.github.io/gires/</link>
+      <pubDate>Sun, 24 Jan 2021 10:53:47 +0100</pubDate>
+      
+      <guid>https://giresgrup.github.io/gires/</guid>
+      <description>El GIRES és el Grup d&amp;rsquo;Investigacions i Recerques Espeleològiques Sesrovires.</description>
     </item>
     
   </channel>
